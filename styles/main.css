@@ -26,7 +26,17 @@ navbar {
     font-size: 1.1em !important;
 }
 
+.bg-white {
+    background-color: #FFFFFF;
+}
+
 /* Carousel */
+
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 10px;
+    height: 10px
+}
 
 .carousel-inner img {
     width: 100%;
