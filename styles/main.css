@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
 
 * {
     /* Reset Style */
@@ -29,6 +30,31 @@ footer {
 .padding-index {
     padding-top: 1rem;
 }
+
+.post-title {
+    text-align: center;
+    color: #4c4c4c;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    line-height: 90px;
+    font-size: 35px;
+}
+
+.col {
+    padding: 1;
+}
+
+.slash {
+    text-align: left;
+    line-height: 90px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    color: #4c4c4c;
+    opacity: 0.7;
+    padding: 15px;
+}
+
 
 /* Navbar */
 
@@ -203,7 +229,7 @@ navbar {
     padding: 0;
     list-style: none;
     display: block;
-    text-align: left;
+    text-align: center;
     width: 100%;
 }
 
@@ -253,7 +279,7 @@ navbar {
     width: 100%;
     height: 100%;
     opacity: 0;
-     -webkit-transition: opacity .3s ease-in-out;
+    -webkit-transition: opacity .3s ease-in-out;
     -moz-transition: opacity .3s ease-in-out;
     -ms-transition: opacity .3s ease-in-out;
     -o-transition: opacity .3s ease-in-out;
@@ -267,10 +293,10 @@ navbar {
 .xop-info h3 {
     font-weight: 400;
     color: black;
-    font-size: 42px;
+    font-size: 25px;
     margin: 0 30px;
     padding: 100px 0 0 0;
-    line-height: 1.5;
+    line-height: 3;
 }
 
 .xop-info p {
@@ -278,7 +304,11 @@ navbar {
     padding: 4px 5px;
     margin: 0 30px;
     font-size: 14px;
-    line-height: 2;
+    line-height: 1;
+}
+
+.bimg-cover {
+    background-size: cover;
 }
 
 .xop-img-1 {
@@ -326,11 +356,19 @@ navbar {
         padding-left: 5%;
         padding-right: 5%;
     }
-    
+
     .xop-grid {
-    text-align: center;
+        text-align: center;
     }
-}
+
+    .post-title {
+        font-size: 30px;
+    }
+
+    .post-year {
+        font-size: 30px;
+    }
+  
 }
 
 @media (min-width: 600px) {
@@ -362,7 +400,7 @@ navbar {
     }
 
     .xop-grid {
-    text-align: center;
+        text-align: center;
     }
 }
 
@@ -394,6 +432,7 @@ navbar {
         padding-left: 20%;
         padding-right: 20%;
     }
+
 
 }
 
