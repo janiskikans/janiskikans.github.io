@@ -2,5 +2,7 @@
 
 ## To-do
 
-- **other.html** - update grid code;
-- **all** - fonts;
+- **other.html** - update grid code
+- **all** - fonts
+- **contact me** - Contact page
+- **all** - dropdown nav
