@@ -31,6 +31,8 @@ footer {
     padding-top: 1rem;
 }
 
+/** Post title **/
+
 .post-title {
     text-align: center;
     color: #4c4c4c;
@@ -407,19 +409,19 @@ navbar {
 @media (min-width: 992px) {
     /* Large - Desktops*/
     #slide1 {
-        height: 750px;
+        height: 700px;
     }
 
     #slide2 {
-        height: 750px;
+        height: 700px;
     }
 
     #slide3 {
-        height: 750px;
+        height: 700px;
     }
 
     #slide4 {
-        height: 750px;
+        height: 700px;
     }
 
     .one-third {
@@ -436,9 +438,25 @@ navbar {
 
 }
 
-/**@media (min-width: 1200px) {
+@media (min-width: 1200px) {
     /* Extra - Large Desktops*/
+    
+    #slide1 {
+        height: 750px;
+    }
 
+    #slide2 {
+        height: 750px;
+    }
+
+    #slide3 {
+        height: 750px;
+    }
+
+    #slide4 {
+        height: 750px;
+    }
+}
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
