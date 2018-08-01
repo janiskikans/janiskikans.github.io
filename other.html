@@ -5,7 +5,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Other- Janis Kikans Photography</title>
+    <title>Other - Janis Kikans Photography</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/media/fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/media/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/media/fav/favicon-16x16.png">
+    <link rel="manifest" href="/media/fav/site.webmanifest">
+    <link rel="mask-icon" href="/media/fav/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123169265-1"></script>
@@ -18,57 +26,154 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-123169265-1');
-
     </script>
 
+    <link href="css/hover-min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="styles/lightbox.min.css">
     <link href="styles/main.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light bg-white sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img id="nav_icon" src="media/logo_text.png" height="70" alt=""></a>
 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/landscapes.html">Landscapes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/portraits.html">Portraits</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/architecture.html">Architecture</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/other.html">Other</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">About Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
     <!-- Gallery -->
-    <div id="galleryWrapper">
-        <!-- Row 1 -->
-        <section class="one-third">
-            <a class="example-image-link" id="lightbox-img" href="media/landsacape_gallery/placeholder_850x1280.png" data-lightbox="example-set" data-title="Example Image #1"><img class="example-image" src="media/landsacape_gallery/placeholder_1280x850.png" alt="Example Image #1 Alt" title="Example Image #1 Title"></a>
-        </section>
-        <section class="one-third">
-            <a class="example-image-link" id="lightbox-img" href="media/landsacape_gallery/placeholder_1280x850.png" data-lightbox="example-set" data-title="Example Image #2"><img class="example-image" src="media/landsacape_gallery/placeholder_1280x850.png" alt="Example Image #2 Alt" title="Example Image #2 Title"></a>
-        </section>
-        <section class="one-third">
-            <a class="example-image-link" id="lightbox-img" href="media/landsacape_gallery/placeholder_1280x850.png" data-lightbox="example-set" data-title="Example Image #3"><img class="example-image" src="media/landsacape_gallery/placeholder_1280x850.png" alt="Example Image #3 Alt" title="Example Image #3 Title"></a>
-        </section>
-        <!-- Row 1 End -->
-        <!-- Row 2 -->
-        <section class="one-third">
-            <a class="example-image-link" id="lightbox-img" href="media/landsacape_gallery/placeholder_1280x850.png" data-lightbox="example-set" data-title="Example Image #4"><img class="example-image" src="media/landsacape_gallery/placeholder_1280x850.png" alt="Example Image #4 Alt" title="Example Image #4 Title"></a>
-        </section>
-        <section class="one-third">
-            <a class="example-image-link" id="lightbox-img" href="media/landsacape_gallery/placeholder_1280x850.png" data-lightbox="example-set" data-title="Example Image #5"><img class="example-image" src="media/landsacape_gallery/placeholder_1280x850.png" alt="Example Image #5 Alt" title="Example Image #5 Title"></a>
-        </section>
-        <section class="one-third">
-            <a class="example-image-link" id="lightbox-img" href="media/landsacape_gallery/placeholder_1280x850.png" data-lightbox="example-set" data-title="Example Image #6"><img class="example-image" src="media/landsacape_gallery/placeholder_1280x850.png" alt="Example Image #6 Alt" title="Example Image #6 Title"></a>
-        </section>
-        <!-- Row 2 End -->
-        <!-- Row 3 -->
-        <section class="one-third">
-            <a class="example-image-link" id="lightbox-img" href="media/landsacape_gallery/placeholder_1280x850.png" data-lightbox="example-set" data-title="Example Image #4"><img class="example-image" src="media/landsacape_gallery/placeholder_1280x850.png" alt="Example Image #4 Alt" title="Example Image #4 Title"></a>
-        </section>
-        <section class="one-third">
-            <a class="example-image-link" id="lightbox-img" href="media/landsacape_gallery/placeholder_1280x850.png" data-lightbox="example-set" data-title="Example Image #5"><img class="example-image" src="media/landsacape_gallery/placeholder_1280x850.png" alt="Example Image #5 Alt" title="Example Image #5 Title"></a>
-        </section>
-        <section class="one-third">
-            <a class="example-image-link" id="lightbox-img" href="media/landsacape_gallery/placeholder_1280x850.png" data-lightbox="example-set" data-title="Example Image #6"><img class="example-image" src="media/landsacape_gallery/placeholder_1280x850.png" alt="Example Image #6 Alt" title="Example Image #6 Title"></a>
-        </section>
-        <!-- Row 3 End -->
-
+    
+    <div class="xop-section">
+        <ul class="xop-grid">
+            <li>
+                <div class="xop-box xop-img-1">
+                    <a href="#">
+                        <div class="xop-info">
+                            <h3>Post Title</h3>
+                            <p>/year/</p>
+                        </div>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="xop-box xop-img-2">
+                    <a href="#">
+                        <div class="xop-info">
+                            <h3>Post Title</h3>
+                            <p>/year/</p>
+                        </div>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="xop-box xop-img-3">
+                    <a href="#">
+                        <div class="xop-info">
+                            <h3>Post Title</h3>
+                            <p>/year/</p>
+                        </div>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="xop-box xop-img-4">
+                    <a href="#">
+                        <div class="xop-info">
+                            <h3>Post Title</h3>
+                            <p>/year/</p>
+                        </div>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="xop-box xop-img-4">
+                    <a href="#">
+                        <div class="xop-info">
+                            <h3>Post Title</h3>
+                            <p>/year/</p>
+                        </div>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="xop-box xop-img-4">
+                    <a href="#">
+                        <div class="xop-info">
+                            <h3>Post Title</h3>
+                            <p>/year/</p>
+                        </div>
+                    </a>
+                </div>
+            </li>
+        </ul>
     </div>
+
+
+
+    <div class="pre-social">
+        <hr>
+    </div>
+
+    <!-- Social -->
+
+    <div class="container-fluid padding social-div">
+        <div class="row text-center padding">
+            <div class="col-12 social">
+                <a href="https://www.facebook.com/janiskikansphotography/" target="_blank"><i class="fa fa-facebook-official"></i></a>
+                <a href="https://www.flickr.com/people/janiskikansphotography/" target="_blank"><i class="fa fa-flickr"></i></a>
+                <a href="http://instagram.com/janiskikans_photography/" target="_blank"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- End of Social -->
+
+    <!-- Footer -->
+    <footer class="bg-white small text-center text-black-50">
+        <div class="container">
+            Copyright &copy; Janis Kikans Photography 2018
+        </div>
+    </footer>
+    <!-- End of Footer -->
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
 </body>
 
 </html>
