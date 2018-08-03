@@ -5,4 +5,4 @@
 - **other.html** - update grid code
 - **all** - fonts
 - **contact me** - Contact page
-- **all** - episodes
+- **all** - dropdown nav
