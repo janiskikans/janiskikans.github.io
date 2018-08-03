@@ -62,6 +62,7 @@ footer {
 }
 
 
+
 /* Navbar */
 
 navbar {
@@ -74,6 +75,7 @@ navbar {
 
 .nav-link {
     font-size: 1.1em !important;
+    padding: 0;
 }
 
 .bg-white {
@@ -222,15 +224,15 @@ navbar {
 
 /* Post Grid */
 
-.xop-section {
+.post-section {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 6% 2%;
+    padding: 10% 0%;
     padding-top: 2%;
     padding-bottom: 2%;
 }
 
-.xop-grid {
+.post-grid {
     margin: 20px 0 0 0;
     padding: 0;
     list-style: none;
@@ -239,17 +241,17 @@ navbar {
     width: 100%;
 }
 
-.xop-grid:after {
+.post-grid:after {
     clear: both;
 }
 
-.xop-grid:after,
-.xop-box:before {
+.post-grid:after,
+.post-box:before {
     content: '';
     display: table;
 }
 
-.xop-grid li {
+.post-grid li {
     width: 328px;
     height: 328px;
     display: inline-block;
@@ -257,7 +259,7 @@ navbar {
     text-align: center;
 }
 
-.xop-grid li {
+.post-grid li {
     width: 328px;
     height: 328px;
     display: inline-block;
@@ -265,7 +267,7 @@ navbar {
     padding: 1%;
 }
 
-.xop-box {
+.post-box {
     width: 100%;
     height: 100%;
     position: relative;
@@ -276,11 +278,11 @@ navbar {
     transition: opacity .3s ease-in-out;
 }
 
-.xop-box:hover {
+.post-box:hover {
     opacity: 0.5;
 }
 
-.xop-info {
+.post-info {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -292,11 +294,11 @@ navbar {
     transition: opacity .3s ease-in-out;
 }
 
-.xop-info:hover {
+.post-info:hover {
     opacity: 1;
 }
 
-.xop-info h3 {
+.post-info h3 {
     font-weight: 400;
     color: black;
     font-size: 25px;
@@ -305,7 +307,7 @@ navbar {
     line-height: 3;
 }
 
-.xop-info p {
+.post-info p {
     color: black;
     padding: 4px 5px;
     margin: 0 30px;
@@ -317,20 +319,67 @@ navbar {
     background-size: cover;
 }
 
-.xop-img-1 {
+.post-cover-1 {
     background-image: url("http://via.placeholder.com/300x300");
 }
 
-.xop-img-2 {
+.post-cover-2 {
     background-image: url("http://via.placeholder.com/300x300");
 }
 
-.xop-img-3 {
+.post-cover-3 {
     background-image: url("http://via.placeholder.com/300x300");
 }
 
-.xop-img-4 {
+.post-cover-4 {
     background-image: url("http://via.placeholder.com/300x300");
+}
+
+/* Portfolio Choice */
+
+.porfolio-choice-container {
+    max-width: 1200px;
+    margin: 40px auto 0 auto;
+    padding: 10% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.portfolio-choice {
+    background-image: url("http://via.placeholder.com/300x300");
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    display: flex;
+    -webkit-transition: opacity .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
+    -ms-transition: opacity .3s ease-in-out;
+    -o-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
+    text-decoration: none !important;
+}
+
+.portfolio-choice-text {
+    margin: auto;
+    font-weight: 400;
+    color: black;
+    font-size: 25px;
+    opacity: 0;
+    -webkit-transition: opacity .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
+    -ms-transition: opacity .3s ease-in-out;
+    -o-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
+}
+
+.portfolio-choice:hover {
+    opacity: .5;
+}
+
+.portfolio-choice:hover > .portfolio-choice-text {
+    opacity: 1;
 }
 
 /* Media Queries */
@@ -363,7 +412,7 @@ navbar {
         padding-right: 5%;
     }
 
-    .xop-grid {
+    .post-grid {
         text-align: center;
     }
 
@@ -405,7 +454,7 @@ navbar {
         padding-right: 10%;
     }
 
-    .xop-grid {
+    .post-grid {
         text-align: center;
     }
 }
@@ -438,7 +487,8 @@ navbar {
         padding-left: 20%;
         padding-right: 20%;
     }
-
+    
+    
 
 }
 
