@@ -382,6 +382,57 @@ navbar {
     opacity: 1;
 }
 
+/** About Me / Contact page **/
+
+#about-container {
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+
+.section-title .section-subtitle {
+    margin-bottom: 10px;
+    padding-left: 7px;
+    font-size: 16px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #aaa;
+    border-left: 2px solid #bfa67a
+}
+
+.about-moto {
+    margin-top: 0;
+    margin-bottom: 37px;
+    font-size: 30px;
+    line-height: 1.25;
+}
+
+.about-profile img{
+    width: 400px;
+    height: auto;
+}
+
+.about-profile {
+    display: inline-block;
+}
+
+#about-profile-container {
+    width: 100%;
+    text-align: center;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.divider-about {
+    border-top: 1px solid #b4b4b4b4;
+}
+
+.about-text {
+    text-indent: 30px;
+}
+
 /* Media Queries */
 
 @media (max-width: 600px) {
@@ -423,6 +474,12 @@ navbar {
     .post-year {
         font-size: 30px;
     }
+    
+    .about-profile img{
+        width: 250px;
+        height: auto;
+        padding-top: 20px;
+    }
   
 }
 
@@ -457,6 +514,11 @@ navbar {
     .post-grid {
         text-align: center;
     }
+    
+    .about-profile img{
+        width: 300px;
+        height: auto;
+    }
 }
 
 @media (min-width: 992px) {
@@ -488,7 +550,10 @@ navbar {
         padding-right: 20%;
     }
     
-    
+    .about-profile img{
+        width: 400px;
+        height: auto;
+    }
 
 }
 
