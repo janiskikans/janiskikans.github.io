@@ -35,6 +35,10 @@ footer {
     padding-top: 1rem;
 }
 
+strong {
+    font-weight: bold;
+}
+
 /** Post title **/
 
 .post-title {
@@ -144,6 +148,10 @@ navbar {
 }
 
 .fa-facebook-official {
+    color: #3b5998;
+}
+
+#fb-contact {
     color: #3b5998;
 }
 
@@ -382,7 +390,7 @@ navbar {
     opacity: 1;
 }
 
-/** About Me / Contact page **/
+/** About Me **/
 
 #about-container {
     margin-bottom: 60px;
@@ -433,6 +441,136 @@ navbar {
     text-indent: 30px;
 }
 
+/** Contact Me **/
+
+.contact-title h1{
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+    padding: 40px;
+}
+
+.form-control {
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #CCCCCC;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.form-control:focus{
+    border-color: #3d3d3d;
+}
+
+.submit {
+    background: white;
+    border: 1px solid #CCCCCC;
+    color: black;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.contact-form {
+    width: 100%;
+    margin: 0 auto 60px;
+    padding-bottom: 2px;
+}
+
+.contact-form input, textarea {
+    width: 100%;
+    +box-sizing(border-box);
+    padding: 10px;
+}
+
+.contact-form input, textarea:focus{
+    outline: none;
+}
+
+.form-label {
+    display: block;
+}
+
+.form-label span {
+    display: block;
+}
+
+.name-group label {
+    width: 50%;
+    float: left;
+    +box-sizing(border-box);
+}
+
+#firstname {
+    padding-right: 20px;
+}
+
+[type=submit] {
+    background-color: #8F8F8F;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 3-px;
+    text-transform: uppercase;
+    max-width: 30%;
+    -webkit-transition: opacity .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
+    -ms-transition: opacity .3s ease-in-out;
+    -o-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
+    letter-spacing: 1px;
+    margin-top: 10px
+}
+
+.submit-wrap {
+    text-align: left;
+}
+
+.submit-btn:hover{
+    opacity: .8;
+}
+
+.other-contact {
+    padding-bottom: 40px;
+    text-align: center;
+    white-space: nowrap;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.info-text {
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+#contact-form-title {
+    padding-bottom: 30px;
+}
+
+.contact-logo img{
+    width: 50%;
+}
+
+.contact-logo {
+    text-align: center;
+}
+
+.contact-left {
+    border-left: 1px solid #A5A5A5;
+}
+
+.contact-row {
+    margin-bottom: 40px;
+}
+
+
+
 /* Media Queries */
 
 @media (max-width: 600px) {
@@ -480,7 +618,15 @@ navbar {
         height: auto;
         padding-top: 20px;
     }
-  
+    
+    .contact-form {
+        max-width: 80%;
+    }
+    
+    .info-text {
+        font-size: 17px;
+        padding-left: 10%;
+    }  
 }
 
 @media (min-width: 600px) {
@@ -519,6 +665,16 @@ navbar {
         width: 300px;
         height: auto;
     }
+    
+    .contact-form {
+        max-width: 80%;
+    }
+    
+    .info-text {
+        font-size: 22px;
+        margin-left: 8%;
+    }  
+    
 }
 
 @media (min-width: 992px) {
@@ -554,7 +710,19 @@ navbar {
         width: 400px;
         height: auto;
     }
+    
+    .contact-form {
+        max-width: 80%;
+    }
 
+    .info-text {
+        font-size: 17px;
+    }  
+    
+     .contact-left {
+        border:none;
+        border-left: 1px solid #A5A5A5;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -574,6 +742,19 @@ navbar {
 
     #slide4 {
         height: 750px;
+    }
+    
+    .contact-form {
+        max-width: 80%;
+    }
+    
+   .info-text {
+        font-size: 20px;
+    }  
+    
+    .contact-left {
+        border:none;
+        border-left: 1px solid #A5A5A5;
     }
 }
 /*
