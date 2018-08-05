@@ -3,7 +3,8 @@
 ## To-do
 
 - **all** - fonts
-- **about/contact** - contact form
+- **portfolio, episodes** - hover animations (to see text better);
+
 
 ## Links
 

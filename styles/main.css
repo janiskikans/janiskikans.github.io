@@ -347,7 +347,7 @@ navbar {
 
 .porfolio-choice-container {
     max-width: 1200px;
-    margin: 40px auto 0 auto;
+    margin: 10px auto 0 auto;
     padding: 10% 0;
     display: flex;
     align-items: center;
@@ -372,7 +372,7 @@ navbar {
 .portfolio-choice-text {
     margin: auto;
     font-weight: 400;
-    color: black;
+    color: white;
     font-size: 25px;
     opacity: 0;
     -webkit-transition: opacity .3s ease-in-out;
@@ -383,11 +383,23 @@ navbar {
 }
 
 .portfolio-choice:hover {
-    opacity: .5;
+    opacity: .8;
 }
 
 .portfolio-choice:hover > .portfolio-choice-text {
     opacity: 1;
+}
+
+#landscape-choice {
+    background-image: url(/media/portfolio-choice/gauja_300x300.jpg);
+}
+
+#portraits-choice {
+    background-image: url(/media/portfolio-choice/anete_300x300.jpg);
+}
+
+#architecture-choice {
+    background-image: url(/media/portfolio-choice/lnb_300x300.jpg);
 }
 
 /** About Me **/
@@ -472,7 +484,7 @@ navbar {
 }
 
 .contact-form {
-    width: 100%;
+    width: 70%;
     margin: 0 auto 60px;
     padding-bottom: 2px;
 }
@@ -547,6 +559,7 @@ navbar {
     font-weight: 300;
     letter-spacing: 1px;
     text-align: left;
+    padding-bottom: 5px;
 }
 
 #contact-form-title {
