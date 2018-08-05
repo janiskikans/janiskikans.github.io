@@ -2,7 +2,7 @@
 
 ## To-do
 
-- **all** - fonts
+- **all** - fonts (NEED TO SUPPORT ACCENTS!!!)
 - **portfolio, episodes** - hover animations (to see text better);
 
 
