@@ -279,7 +279,7 @@ navbar {
 }
 
 .post-box:hover {
-    opacity: 0.7
+    opacity: 0.8
 }
 
 .post-info {
@@ -302,7 +302,6 @@ navbar {
 }
 
 .post-info h3 {
-    font-weight: ;
     font-size: 25px;
     margin: 0 30px;
     padding: 100px 0 0 0;
@@ -320,6 +319,10 @@ navbar {
     color:white;
 }
 
+.text-color-black {
+    color: black;
+}
+
 .bimg-cover {
     background-size: cover;
 }
@@ -329,7 +332,7 @@ navbar {
 }
 
 .post-cover-2 {
-    background-image: url("http://via.placeholder.com/300x300");
+    background-image: url("/content/posts/post_summer-anete/post_summer-anete_cover.jpg");
 }
 
 .post-cover-3 {
@@ -338,6 +341,15 @@ navbar {
 
 .post-cover-4 {
     background-image: url("http://via.placeholder.com/300x300");
+}
+
+#post_summer-anete h3{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#post_summer-anete:hover {
+    background: #dfa190;
 }
 
 /* Portfolio Choice */
