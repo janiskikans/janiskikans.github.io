@@ -336,20 +336,24 @@ navbar {
 }
 
 .post-cover-3 {
-    background-image: url("http://via.placeholder.com/300x300");
+    background-image: url("/content/posts/post_kto-ja/post_kto-ja_cover.jpg");
 }
 
 .post-cover-4 {
     background-image: url("http://via.placeholder.com/300x300");
 }
 
-#post_summer-anete h3{
+#post_summer-anete:hover {
+    background: #dfa190;
+}
+
+.smaller-post-font h3{
     font-size: 23px;
     font-weight: bold;
 }
 
-#post_summer-anete:hover {
-    background: #dfa190;
+#post_kto-ya:hover {
+    background: #2d2d2d;
 }
 
 /* Portfolio Choice */
