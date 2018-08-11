@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400');
 
 * {
@@ -44,7 +44,7 @@ strong {
 .post-title {
     text-align: center;
     color: #4c4c4c;
-    font-family: 'Lato', sans-serif;
+    font-family: font-family: 'Open Sans', sans-serif;;
     font-weight: 300;
     line-height: 90px;
     font-size: 35px;
@@ -340,6 +340,10 @@ navbar {
 }
 
 .post-cover-4 {
+    background-image: url("/content/posts/post_jurmala-anete/post_jurmala-anete_cover.jpg");
+}
+
+.post-cover-5 {
     background-image: url("http://via.placeholder.com/300x300");
 }
 
@@ -354,6 +358,10 @@ navbar {
 
 #post_kto-ya:hover {
     background: #2d2d2d;
+}
+
+#post_jurmala-anete:hover {
+    background: #549ea6;
 }
 
 /* Portfolio Choice */
@@ -377,6 +385,8 @@ navbar {
     -moz-transition: opacity .4s ease-in-out;
     -ms-transition: opacity .4s ease-in-out;
     -o-transition: opacity .4s ease-in-out;
+    transition: opacity 1 ease-in-out;
+    -webkit-animation-duration: 1s;
     transition: opacity 1 ease-in-out;
     text-decoration: none !important;
     transition: all .4s;
@@ -405,7 +415,7 @@ navbar {
 }
 
 .portfolio-choice:hover > .portfolio-choice-text {
-    opacity: .9;
+    opacity: .8;
     background: #8e0e0e;
 }
 
@@ -491,7 +501,7 @@ navbar {
 }
 
 .form-control:focus{
-    border-color: #3d3d3d;
+    border-color: #a9b1b1;
 }
 
 .submit {
@@ -559,6 +569,10 @@ navbar {
 
 .submit-btn:hover{
     opacity: .8;
+}
+
+.submit-btn {
+    border: none;
 }
 
 .other-contact {
@@ -646,7 +660,7 @@ navbar {
     }
     
     .about-profile img{
-        width: 250px;
+        width: 80%;
         height: auto;
         padding-top: 20px;
     }
@@ -662,6 +676,10 @@ navbar {
     
     .full-width-image {
         width: 90%;
+    }
+    
+    #about-container {
+        padding: 8%;
     }
 }
 
@@ -714,6 +732,11 @@ navbar {
     .full-width-image{
         width: 80%;
     }
+    
+    #about-container {
+        padding: 2%;
+    }
+    
 }
 
 @media (min-width: 992px) {
@@ -766,6 +789,11 @@ navbar {
     .full-width-image {
         width: 100%;
     }
+    
+    #about-container {
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
 }
 
 @media (min-width: 1200px) {
@@ -803,6 +831,11 @@ navbar {
     .full-width-image {
         width: 75%;
     }
+    
+    #about-container {
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
 }
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
