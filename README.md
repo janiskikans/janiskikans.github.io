@@ -3,7 +3,7 @@
 ## To-do
 
 - **all** - fonts (NEED TO SUPPORT ACCENTS!!!)
-- ˜˜**portfolio, episodes** - hover animations (to see text better);˜˜
+- ~~**portfolio, episodes** - hover animations (to see text better);~~
 - **about** - set padding for text(mobile view);
 - **contact** - check button apperance (3d);
 - **portfolio, episodes** - hover animation problem;
