@@ -681,6 +681,7 @@ navbar {
     #about-container {
         padding: 8%;
     }
+    
 }
 
 @media (min-width: 600px) {
@@ -791,9 +792,10 @@ navbar {
     }
     
     #about-container {
-    margin-bottom: 60px;
-    margin-top: 50px;
-}
+        margin-bottom: 60px;
+        margin-top: 50px;
+    }
+    
 }
 
 @media (min-width: 1200px) {
@@ -833,9 +835,9 @@ navbar {
     }
     
     #about-container {
-    margin-bottom: 60px;
-    margin-top: 50px;
-}
+        margin-bottom: 60px;
+        margin-top: 50px;
+    }
 }
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
