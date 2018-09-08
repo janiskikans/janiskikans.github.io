@@ -10,6 +10,7 @@
 - ~~**contact** - input field focus animation (change color to lighter).~~
 - **index, all** - media query for min height.
 - ~~**episodes** - animations when loading page (uzpeldet)~~
+- **all** - lower image loading times
 
 
 ## Links
